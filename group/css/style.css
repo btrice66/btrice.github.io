@@ -1,0 +1,200 @@
+/* colors:
+green: #3cc47c; rgb(60, 196, 124)
+grey: #828081; rgb(130, 128, 129)
+dark grey: #1e392a; rgb(30, 57, 42)
+taupe: #e9c893; rgb(233, 200, 147)
+
+navy blue: #003366
+*/
+
+body {
+    font-family: 'Work Sans', 'Verdana', 'Arial', sans-serif;
+    color: #003366;
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+h6 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.navbar {
+    background-color: #003366;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.navbar ul {
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 250px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#active {color: #00ffff;}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin: 38px 0px;
+    padding: 0px;
+}
+
+.header img {
+    width: 100%;
+}
+
+.header p {
+    width: 90%;
+    margin: auto;
+}
+
+
+.list {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    border: 0px;
+    padding: 0px;
+}
+
+.list table {
+    margin: auto;
+    text-align: center;
+    vertical-align: top;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.list img {
+    max-width: 40%;
+    max-height: 400px;
+    text-align: center;
+    
+}
+
+.list td:first-child {
+    width: 10%;
+    font-weight: bold;
+    font-size: 60px;
+    vertical-align: top;
+}
+
+.list td:nth-child(2) {
+    width: 80%;
+}
+
+.list tr:nth-child(odd) {
+    padding-top: 30px;
+}
+
+.list tr:nth-child(even) {
+    border-bottom: 1px solid #003366;
+    margin-bottom: 200px;
+}
+
+.list p {
+    text-align: justify;
+    font-weight: normal;
+}
+
+.form {
+    width: 80%;
+    margin: auto;
+    margin: 50px 0px 0px 15%;
+}
+
+fieldset {border: none;}
+
+textarea {
+    width: 50%;
+    height: 200px;
+}
+
+.text {width: 300px;}
+
+.button {margin-left: 14px;}
+
+.footer {text-align: center;
+}
+
+.number {
+    float: left;
+    margin: 0px 30px 0px 0px;
+    height: 200px;
+}
+
+.number p {
+    font-size: 60px;
+    font-weight: bold;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.site {
+    text-align: center;
+}
+
+.description {
+    clear: both;
+}
+
+.hr {
+    margin: 30px 0px;
+    clear: both;
+}
+
+.site img {
+    max-width: 40%;
+    max-height: 400px;
+    text-align: center;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+}
+
+.top img {
+    max-width: 30px;
+    max-height: 30px;
+}
