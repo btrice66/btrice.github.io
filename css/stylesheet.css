@@ -65,17 +65,41 @@ body {
 float:bottom;
 }
 
-.sights img {
-    max-width: 40%;
+    .sights img { max-width: 40%;
     max-height: 400px;
-    text-align: center;
-    }
+    text-align: center; }
     
     .form {
         margin-top: 10%;
+        text-align: left;
         
     }
     
     .listsights {
         text-align: center;}
+    
+    
+    .sightslist {
+        display: inline-block;
+        text-align: center;
     }
+    
+   .itemtip img { max-width: 40%;
+    max-height: 400px;
+     }
+     
+     .itemtip {
+         text-align: center;
+         margin-top: 10%;
+     }
+     }
+     .items {
+         text-align: center;
+         
+     }
+     
+     .itemlist {
+         text-align: center;}
+     }
+     
+     .packlist li {margin-bottom: 20%;}
